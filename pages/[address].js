@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import Image from "next/image";
 import {ethers} from 'ethers';
-import CampaignFactory from '../artifacts/contracts/Campaign.sol/CampaignFactory.json'
-import Campaign from '../artifacts/contracts/Campaign.sol/Campaign.json'
+import CampaignFactory from '../artifacts/contracts/Campaign.sol/campaignFactory.json'
+import Campaign from '../artifacts/contracts/Campaign.sol/campaign.json'
 import { useEffect, useState } from "react";
 
 
