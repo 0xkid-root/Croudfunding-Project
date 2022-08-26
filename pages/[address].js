@@ -175,7 +175,7 @@ export async function getStaticProps(context) {
 
   const title = await contract.title();
   const requiredAmount = await contract.requiredAmount();
-  const image = await contract.image();
+  const image = await contract.images();
   const storyUrl = await contract.story();
   const owner = await contract.owner();
   const receivedAmount = await contract.receivedAmount();
